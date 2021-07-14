@@ -27,3 +27,22 @@ header {
     border-radius: 20px;
 
 }
+
+/*parte laterale*/
+aside {
+    background-color: black;
+    width: 250px;
+    height: 4000px;
+}
+
+.logo {
+    width: 70%;
+}
+
+.principal-logo {
+    margin: 10px;
+}
+
+.secondary-logo {
+    display: none;
+}
