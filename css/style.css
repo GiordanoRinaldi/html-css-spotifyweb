@@ -88,6 +88,11 @@ aside {
     vertical-align: middle;
 }
 
+.profile-download {
+    position: absolute;
+    bottom: 10px;
+}
+
 .profile-image {
     display: inline-block;
     width: 20px;
@@ -107,4 +112,8 @@ aside {
 .profile-download hr {
     width: calc(100% - 40px);
     margin: 15px 0;
+}
+
+.nav, .nav a, .profile-download, .profile-download hr {
+    color: #717171;
 }
