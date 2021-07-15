@@ -9,6 +9,9 @@
     h2 {
         margin: 15px;
     }
+    .margin-left-25 {
+        margin: 15px;
+    }
     .first-section {
         flex-wrap: wrap;
         justify-content: flex-start;
@@ -16,6 +19,9 @@
     .album {
         width: calc(100% / 4 - 10px);
         
+    }
+    .flex-start .image-album:first-child {
+        margin-right: 0px;
     }
     
 }
