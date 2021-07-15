@@ -162,6 +162,8 @@ footer {
 
 .col-left, .col-right {
     width: 250px;
+    position: fixed;
+    bottom: 20px;
 }
 
 .image-mini {
@@ -175,10 +177,16 @@ footer {
 }
 
 .col-left {
+    left: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+.col-right {
+    right: 0;
+}
+
 
 .mini-titlesong {
     display: flex;
@@ -188,6 +196,60 @@ footer {
 
 a .fa-heart {
     margin-right: 8px;
+}
+
+.col-center {
+    width: calc(100% - 500px);
+    margin: auto;
+    text-align: center;
+}
+
+.change-pause-song {
+    width: 20%;
+    margin: auto;
+    margin-bottom: 12px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-play-circle {
+    font-size: 30px;
+    line-height: 25px;
+}
+
+.time-song {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-timing-song {
+    border-radius: 50px;
+    width: 60%;
+    margin: auto;
+    height: 6px;
+    background-color: lightgrey;
+    margin: 0 30px;
+}
+
+.timing-green {
+    border-radius: 50px;
+    height: 6px;
+    width: 30%;
+    background-color: rgb(160, 160, 160);
+}
+
+.circle-timing {
+    position: relative;
+    bottom: 2px;
+    border-radius: 50%;
+    margin-left: 93px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(138, 138, 138);
+    display: none;
 }
 
 
