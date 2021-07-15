@@ -214,10 +214,19 @@ main {
 }
 
 .album {
+    display: flex;
+    flex-direction: column;
     margin: 5px;
-    width: 300px;
-    height: 200px;
-    background-color: rosybrown;
+    width: calc(100% / 6 - 30px);
+}
+
+.image-album img {
+    width: 100%;
+}
+
+.title, .subtitle {
+    text-align: center;
+    margin: 10px 0;
 }
 
 
