@@ -22,6 +22,17 @@ a {
     padding-left: 20px;
 }
 
+/*hover*/
+.upgrade:hover {
+    transform: scale(1.2);
+}
+
+aside a:hover {
+    color: #ffffff;
+}
+
+
+
 /*header*/
 header {
     display: flex;
@@ -50,6 +61,11 @@ aside {
     background-color: black;
     width: 250px;
     height: calc(100vh - 60px);
+    font-weight: 500;
+}
+
+aside a {
+    color: #717171;
 }
 
 .logo {
@@ -83,23 +99,17 @@ aside {
     background-color: #717171;
 }
 
-.playlist-create a {
-    color: #717171;
-    vertical-align: middle;
-    font-weight: 500;
-}
-
 .playlist {
     height: calc(100% - 350px);
     overflow-y: auto;
 }
 
-.nav li {
+nav li {
     margin-bottom: 15px;
 }
 
-.nav a {
-    font-weight: 500;
+.cazzo {
+    color: #ffffff;
 }
 
 .first-nav img {
@@ -131,8 +141,4 @@ aside {
 .profile-download hr {
     width: calc(100% - 40px);
     margin: 15px 0;
-}
-
-.nav, .nav a, .profile-download, .profile-download hr {
-    color: #717171;
 }
