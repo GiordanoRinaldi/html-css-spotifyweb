@@ -23,7 +23,7 @@ a {
 }
 
 h2 {
-    margin: 15px;
+    margin: 25px;
 }
 
 /*hover*/
@@ -43,10 +43,13 @@ aside a:hover, .mini-titlesong a:hover, .change-category a:hover {
     display: inline-block;
 }
 
-.fa-play-circle:hover {
+.col-center .fa-play-circle:hover {
     transform: scale(1.1);
 }
 
+.image-album:hover .play-album {
+    opacity: 1;
+}
 
 
 
@@ -220,13 +223,39 @@ main {
     width: calc(100% / 6 - 30px);
 }
 
+.image-album {
+    position: relative;
+}
+
 .image-album img {
     width: 100%;
+    opacity: 1;
 }
 
 .title, .subtitle {
     text-align: center;
-    margin: 10px 0;
+    margin: 20px 0 10px 0;
+}
+
+.play-album {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    font-size: 50px;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.play-album .fa-play-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 
@@ -304,7 +333,7 @@ a .fa-heart {
     align-items: center;
 }
 
-.fa-play-circle {
+.col-center .fa-play-circle {
     font-size: 30px;
     line-height: 25px;
 }
