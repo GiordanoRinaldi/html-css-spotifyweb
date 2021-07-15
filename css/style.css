@@ -30,6 +30,20 @@ h2 {
     margin: 25px;
 }
 
+/*stile scrollbar*/
+main::-webkit-scrollbar, .playlist::-webkit-scrollbar {
+width: 7px;           
+}
+
+main::-webkit-scrollbar-track, .playlist::-webkit-scrollbar-track {
+background: none;
+}
+
+main::-webkit-scrollbar-thumb, .playlist::-webkit-scrollbar-thumb {
+background-color: rgb(112, 112, 112);
+border-radius: 20px; 
+}
+
 /*hover*/
 .upgrade:hover {
     transform: scale(1.2);
