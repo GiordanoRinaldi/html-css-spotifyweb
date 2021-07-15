@@ -185,6 +185,9 @@ footer {
 
 .col-right {
     right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 
@@ -252,4 +255,13 @@ a .fa-heart {
     display: none;
 }
 
+.icons i {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.time-song.audio .bar-timing-song {
+    width: 120px;
+    margin:  20px;
+}
 
