@@ -27,9 +27,23 @@ a {
     transform: scale(1.2);
 }
 
-aside a:hover {
+aside a:hover, .mini-titlesong a:hover {
     color: #ffffff;
 }
+
+.timing-green:hover {
+    background-color: greenyellow;
+}
+
+.timing-green:hover .circle-timing {
+    display: inline-block;
+}
+
+.fa-play-circle:hover {
+    transform: scale(1.1);
+}
+
+
 
 
 
@@ -64,7 +78,7 @@ aside {
     font-weight: 500;
 }
 
-aside a {
+aside a, .mini-titlesong a {
     color: #717171;
 }
 
@@ -176,11 +190,22 @@ footer {
     vertical-align: middle;
 }
 
+.mini-titlesong {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titlesong {
+    margin-right: 10px;
+}
+
 .col-left {
     left: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 10px;
 }
 
 .col-right {
@@ -190,12 +215,6 @@ footer {
     align-items: center;
 }
 
-
-.mini-titlesong {
-    display: flex;
-    flex-flow: column;
-
-}
 
 a .fa-heart {
     margin-right: 8px;
@@ -248,7 +267,7 @@ a .fa-heart {
     position: relative;
     bottom: 2px;
     border-radius: 50%;
-    margin-left: 93px;
+    margin-left: 98%;
     width: 10px;
     height: 10px;
     background-color: rgb(138, 138, 138);
