@@ -27,7 +27,7 @@ a {
     transform: scale(1.2);
 }
 
-aside a:hover, .mini-titlesong a:hover {
+aside a:hover, .mini-titlesong a:hover, .change-category a:hover {
     color: #ffffff;
 }
 
@@ -50,12 +50,16 @@ aside a:hover, .mini-titlesong a:hover {
 /*header*/
 header {
     display: flex;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
     justify-content: flex-end;
     align-items: center;
     height: 60px;
     width: calc(100vw - 250px);
     margin-left: 250px;
-    background-color: #080b12;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .upgrade {
@@ -78,7 +82,7 @@ aside {
     font-weight: 500;
 }
 
-aside a, .mini-titlesong a {
+aside a, .mini-titlesong a, .change-category a  {
     color: #717171;
 }
 
@@ -160,6 +164,44 @@ nav li {
     width: calc(100% - 40px);
     margin: 15px 0;
 }
+/*/parte laterale*/
+
+/*main*/
+main {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: #141922;
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+
+.change-category {
+    width: 100%;
+    margin: auto;
+    
+}
+
+.change-category ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.change-category ul li  {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 20px 20px;
+}
+
+.change-category ul li div {
+    margin: auto;
+    height: 5px;
+    width: 50px;
+    border-bottom: 2px solid #adff2f;
+  }
+
 
 
 /*footer*/
