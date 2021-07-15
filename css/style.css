@@ -60,7 +60,7 @@ aside {
     left: 0;
     background-color: black;
     width: 250px;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 80px);
     font-weight: 500;
 }
 
@@ -146,3 +146,48 @@ nav li {
     width: calc(100% - 40px);
     margin: 15px 0;
 }
+
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #282828;
+}
+
+.col-left, .col-right {
+    width: 250px;
+}
+
+.image-mini {
+    height: 45px;
+}
+
+.image-mini img {
+    height: 45px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.col-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mini-titlesong {
+    display: flex;
+    flex-flow: column;
+
+}
+
+a .fa-heart {
+    margin-right: 8px;
+}
+
+
