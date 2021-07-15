@@ -22,6 +22,10 @@ a {
     padding-left: 20px;
 }
 
+h2 {
+    margin: 15px;
+}
+
 /*hover*/
 .upgrade:hover {
     transform: scale(1.2);
@@ -200,8 +204,21 @@ main {
     height: 5px;
     width: 50px;
     border-bottom: 2px solid #adff2f;
-  }
+}
 
+.first-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0 10px;
+}
+
+.album {
+    margin: 5px;
+    width: 300px;
+    height: 200px;
+    background-color: rosybrown;
+}
 
 
 /*footer*/
