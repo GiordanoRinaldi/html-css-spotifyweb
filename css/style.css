@@ -53,11 +53,11 @@ aside a:hover, .mini-titlesong a:hover, .change-category a:hover {
     color: #ffffff;
 }
 
-.timing-green:hover {
+.bar-timing-song:hover .timing-green {
     background-color: greenyellow;
 }
 
-.timing-green:hover .circle-timing {
+.bar-timing-song:hover .circle-timing {
     display: inline-block;
 }
 
