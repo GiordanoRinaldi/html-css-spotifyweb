@@ -107,7 +107,7 @@ aside {
     font-weight: 500;
 }
 
-aside a, .mini-titlesong a, .change-category a  {
+aside a, .mini-titlesong a, .change-category a, .subtitle, p.margin-left-25 {
     color: #717171;
 }
 
