@@ -53,6 +53,10 @@ aside a:hover, .mini-titlesong a:hover, .change-category a:hover {
     color: #ffffff;
 }
 
+.playlist-create a:hover .square {
+    background-color: #ffffff;
+}
+
 .bar-timing-song:hover .timing-green {
     background-color: greenyellow;
 }
@@ -153,6 +157,7 @@ span > strong {
 
 nav li {
     margin-bottom: 15px;
+    position: relative;
 }
 
 .cazzo {
@@ -188,6 +193,17 @@ nav li {
 .profile-download hr {
     width: calc(100% - 40px);
     margin: 15px 0;
+}
+
+.first-nav li:first-child:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    height: 100%;
+    width: 2px;
+    background-color: #adff2f;
+
 }
 /*/parte laterale*/
 
