@@ -57,7 +57,6 @@
         padding-left: 0px;
     }
 
-
     .playlist {
         height: calc(100% - 200px);
     }
@@ -104,5 +103,21 @@
     main {
         width: calc(100% - 40px);
         margin-left: 39px;
+    }
+
+    .col-left, .col-right {
+        display: none;
+    }
+
+    .col-center {
+        width: 100%;
+    }
+
+    .bar-timing-song {
+        width: 40%;
+    }
+
+    .change-pause-song {
+        width: 40%;
     }
 }
